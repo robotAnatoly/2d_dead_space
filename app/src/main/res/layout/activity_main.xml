@@ -8,10 +8,23 @@
 	android:paddingLeft="@dimen/activity_horizontal_margin"
 	android:paddingRight="@dimen/activity_horizontal_margin"
 	android:paddingTop="@dimen/activity_vertical_margin"
+	android:background="@android:color/white"
 	tools:context="alexey.a2d_dead_space.MainActivity">
 
 	<TextView
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
-		android:text="Hello World!"/>
+		android:textColor="@color/red"
+		android:text="@string/space"/>
+
+	<ImageView android:layout_width="40dp"
+			   android:layout_height="40dp"
+			   android:src="@drawable/space_ship_a"
+			   android:layout_centerVertical="true"/>
+
+	<ImageView android:layout_width="40dp"
+			   android:layout_height="40dp"
+			   android:src="@drawable/space_ship_t"
+			   android:layout_centerVertical="true"
+			   android:layout_alignParentRight="true"/>
 </RelativeLayout>
