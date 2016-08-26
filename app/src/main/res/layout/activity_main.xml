@@ -20,11 +20,13 @@
 	<ImageView android:layout_width="40dp"
 			   android:layout_height="40dp"
 			   android:src="@drawable/space_ship_a"
-			   android:layout_centerVertical="true"/>
+			   android:layout_centerVertical="true"
+		android:contentDescription="@string/shipimg1" />
 
 	<ImageView android:layout_width="40dp"
 			   android:layout_height="40dp"
 			   android:src="@drawable/space_ship_t"
 			   android:layout_centerVertical="true"
-			   android:layout_alignParentRight="true"/>
+			   android:layout_alignParentRight="true"
+		android:contentDescription="@string/ship2img" />
 </RelativeLayout>

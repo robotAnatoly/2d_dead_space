@@ -2,5 +2,7 @@
 	<string name="app_name">2d_dead_space</string>
 
 	<string name="space">COSMOS...</string>
+	<string name="ship2img">ship2img</string>
+	<string name="shipimg1">shipimg1</string>
 
 </resources>
